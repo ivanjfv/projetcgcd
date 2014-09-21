@@ -76,8 +76,11 @@ Example
 ==========
  
 source("run_analysis.R")
+
 r<-run_analysis()
+
 write.table(r,"tidy_data.txt",row.name=FALSE )
+
 
 
 
